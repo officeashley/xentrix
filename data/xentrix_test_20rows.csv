@@ -1,0 +1,21 @@
+Date,AgentName,CallsHandled,AvgHandleTimeSeconds,CSAT,Adherence,Compliance,Notes,Call_Type,Issue_Type,Resolution_Status,コール開始時間,コール終了時間
+2025-10-01T00:00:00,タナカ,,294,99 %,78 %,97 %,,受電 ,アカウント / Account,Partially Resolved,NULL,NULL
+01-10-2025,Maeda BB,27,352,87,92,96,"customer requested callback, weird spike",inbound ,返品 / Return,一次対応のみ,2025/10/01 10:54,11:04:00
+2025年10月01日,Maeda BB,27,216,75,98,100,,チャット,アカウント / Account,一次対応のみ,2025/10/01 10:13,10:26
+2025-10-01T00:00:00+09:00,Kondo OO,45,399,73,NULL,９５,"N/A, manual check required",OUT-BOUND,アカウント / Account,Resolved,2025-10-01T15:24:00+09:00,2025-10-01T15:41:00+09:00
+2025/10/01,WATANABE E,31,412 sec,81,94,98,クレーム傾向あり,受電 ,技術サポート / Tech support,Transfer to L2,16:01:00,16:07
+2025-10-01T00:00:00+09:00,Kobayashi I,１５,215,NULL,95,91,"※手動で確認, QA to review, manual check required",発信,その他 / Other,Resolved,12:14,12:19
+2025-10-01T00:00:00,ワタナベ,13,349 sec,96,96,94,"QA to review, 新人対応",inbound ,支払いエラー / Payment error,解決済み / Resolved,15:46,15:59
+10/01/2025, Yamaguchi N ,NUL,NUL,69,95 %,96,urgent,発信,返品 / Return,コールバック予定,,
+2025年10月01日,Kimura Q,39,554,74,79,88 %,"urgent,日本語メモあり,クレーム傾向あり",OUT-BOUND,支払いエラー / Payment error,Resolved,19:55,2025-10-01T20:05:00+09:00
+2025-10-01T00:00:00,Fujii MM,43,522,84,80 %,97,,メール,請求 / Billing,Transfer to L2,10:56:00,2025-10-01T11:06:00+09:00
+2025/10/01,HASEGAWA KK,16,NULL,NULL,NULL,92,"manual check required, ※手動で確認, クレーム傾向あり",inbound ,支払いエラー / Payment error,コールバック予定,13:02:00,13:05
+10/01/2025,サトウ,37,NULL,74,96,,N/A,Outbound,支払いエラー / Payment error,Transfer to L2,21:35,21:51
+10/01/2025,スズキ,,350,80,８１,91,weird spike,Outbound,アカウント / Account,Transfer to L2,2025/10/01 13:55,14:00:00
+2025-10-01T00:00:00,INOUE P,26,315 sec,87,97,91,,受電 ,返品 / Return,Transfer to L2,2025-10-01T15:04:00+09:00,15:17:00
+2025年10月01日,Hayashi R,30,245,76,95,100,"manual check required, weird spike",OUT-BOUND,支払いエラー / Payment error,一次対応のみ,17:42,17:55:00
+2025-10-01T00:00:00+09:00,NAKAJIMA AA,NUL,7200,69,96,91,double break?,OUT-BOUND,その他 / Other,解決済み / Resolved,17:15:00,2025/10/01 17:21
+01-10-2025,Fujii MM,37,261,80,94,99,"needs coaching, urgent, VIP customer",OUT-BOUND,返品 / Return,Resolved,15:26,2025/10/01 15:39
+2025/10/01,Kimura Q,11,374,89,91,91,"N/A, manual check required",受電,請求 / Billing,エスカレーション,,
+2025/10/01,Sakamoto II,１１,416,94,90,89,,チャット,返品 / Return,Resolved,21:41,2025-10-01T21:45:00+09:00
+2025-10-01T00:00:00+09:00,Fujii MM,40,291,72,８７,98,needs coaching,Outbound,支払いエラー / Payment error,一次対応のみ,2025-10-01T19:38:00+09:00,19:44:00
