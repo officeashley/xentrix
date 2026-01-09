@@ -1,4 +1,5 @@
 // lib/kpi/types.ts
+
 export type InsightLevel = "info" | "warn" | "critical";
 export type OwnerType = "center" | "supervisor" | "agent";
 export type RangeKey = "today" | "week" | "month";
@@ -17,7 +18,7 @@ export type InsightV1 = {
   title: string;
   why: string; // 根拠（人が読める文章）
   impact?: string; // 影響
-  scope: "center" | "agent" | "team";
+  scope: "center" | "agent";
   who: "center" | string; // agentName or "center"
   window: RangeKey;
   metrics?: Partial<Record<MetricKey, number | string | null>>;
@@ -29,10 +30,12 @@ export type RecommendTaskV1 = {
   ownerType: OwnerType;
   owner: "center" | string; // agentName or "center"
   within: "24h" | "3d" | "7d" | "14d";
-  duration: "15m" | "30m" | "60m" | "2h" | "1w";
+  duration: "15m" | "30m" | "60m" | "90m" | "120m";
   task: string; // やること（命令形）
   howMany?: number; // 例：レビュー件数
   evidence?: string; // なぜ？（短文）
+  outcome?: string; // 期待アウトカム（短く・測定可能）
+  due?: "today" | "tomorrow" | "this_week"; // UI表示用（任意）
 };
 
 export type AiOutputV1 = {
