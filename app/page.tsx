@@ -10,7 +10,6 @@ export default function Home() {
           <a href="/privacy">Privacy</a>
         </nav>
       </header>
-
       <section style={{ marginTop: 56 }}>
         <h1 style={{ fontSize: 40, lineHeight: 1.1, margin: 0 }}>
           B2B CX analytics to improve SL, CSAT and efficiency.
